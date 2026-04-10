@@ -1,0 +1,12 @@
+{
+  "name": "NutriSense",
+  "short_name": "NutriSense",
+  "description": "AI-powered food & health intelligence platform",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0f0d",
+  "theme_color": "#22c55e",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
