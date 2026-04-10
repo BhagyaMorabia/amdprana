@@ -1,4 +1,4 @@
-// Central TypeScript types for NutriSense
+// Central TypeScript types for Prana
 
 export interface UserProfile {
   uid: string;

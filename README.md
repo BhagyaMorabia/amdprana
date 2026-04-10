@@ -1,4 +1,4 @@
-# NutriSense
+# Prana
 
 > **Eat Smart. Live Better. Powered by AI.**  
 > AMDI Promptathon — Smart Food & Health Platform

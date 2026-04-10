@@ -50,7 +50,7 @@ export default function Auth() {
     setGoogleLoading(true);
     try {
       await signInWithGoogle();
-      toast.success('Welcome to NutriSense!');
+      toast.success('Welcome to Prana!');
       navigate(from, { replace: true });
     } catch (err) {
       toast.error('Google sign-in failed. Please try again.');

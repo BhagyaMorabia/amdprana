@@ -62,12 +62,12 @@ export default function Layout({ children, requiresAuth = false }: LayoutProps) 
         <header className="sticky top-0 z-40 glass border-b border-surface-border">
           <nav className="max-w-7xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between"
             aria-label="Main navigation">
-            <Link to="/" className="flex items-center gap-2 group" aria-label="NutriSense home">
+            <Link to="/" className="flex items-center gap-2 group" aria-label="Prana home">
               <div className="w-8 h-8 rounded-xl bg-brand-500/20 flex items-center justify-center
                 group-hover:bg-brand-500/30 transition-colors">
                 <Leaf className="w-4 h-4 text-brand-400" aria-hidden="true" />
               </div>
-              <span className="font-display font-bold text-lg text-white">NutriSense</span>
+              <span className="font-display font-bold text-lg text-white">Prana</span>
             </Link>
 
             <div className="hidden md:flex items-center gap-1">
@@ -95,7 +95,7 @@ export default function Layout({ children, requiresAuth = false }: LayoutProps) 
               <div>
                 <div className="flex items-center gap-2 mb-3">
                   <Leaf className="w-5 h-5 text-brand-400" aria-hidden="true" />
-                  <span className="font-display font-bold text-white">NutriSense</span>
+                  <span className="font-display font-bold text-white">Prana</span>
                 </div>
                 <p className="text-zinc-500 text-sm max-w-xs">
                   AI-powered food intelligence. Track, plan, and build habits that last.
@@ -112,7 +112,7 @@ export default function Layout({ children, requiresAuth = false }: LayoutProps) 
             </div>
             <div className="border-t border-surface-border mt-8 pt-8 flex flex-col md:flex-row
               justify-between items-center gap-4 text-xs text-zinc-600">
-              <p>© 2024 NutriSense. Built for the AMDI Promptathon.</p>
+              <p>© 2024 Prana. Built for the AMDI Promptathon.</p>
               <p>Powered by Gemini AI · Firebase · USDA FoodData</p>
             </div>
           </div>
@@ -149,7 +149,7 @@ export default function Layout({ children, requiresAuth = false }: LayoutProps) 
             <div className="w-8 h-8 rounded-xl bg-brand-500/20 flex items-center justify-center">
               <Leaf className="w-4 h-4 text-brand-400" aria-hidden="true" />
             </div>
-            <span className="font-display font-bold text-white">NutriSense</span>
+            <span className="font-display font-bold text-white">Prana</span>
           </Link>
           <button
             className="md:hidden p-1 rounded-lg hover:bg-surface-elevated"
@@ -207,7 +207,7 @@ export default function Layout({ children, requiresAuth = false }: LayoutProps) 
           <button
             onClick={handleSignOut}
             className="w-full btn-ghost text-sm text-zinc-400 justify-start"
-            aria-label="Sign out of NutriSense"
+            aria-label="Sign out of Prana"
           >
             <LogOut className="w-4 h-4" aria-hidden="true" /> Sign Out
           </button>
@@ -225,7 +225,7 @@ export default function Layout({ children, requiresAuth = false }: LayoutProps) 
         >
           <Menu className="w-5 h-5 text-zinc-400" aria-hidden="true" />
         </button>
-        <span className="font-display font-bold text-white">NutriSense</span>
+        <span className="font-display font-bold text-white">Prana</span>
         <div className="w-9" />
       </div>
 

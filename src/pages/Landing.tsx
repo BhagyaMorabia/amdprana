@@ -164,7 +164,7 @@ export default function Landing() {
             <p className="text-xl text-zinc-400 leading-relaxed mb-8 max-w-xl">
               Your AI-powered food intelligence platform. Track calories, scan meals with AI,
               set fasting timers, and discover healthy restaurants nearby.
-              Everything YAZIO does — built entirely for the web.
+              Built entirely for the web.
             </p>
 
             <div className="flex flex-wrap gap-4 mb-12">
@@ -199,7 +199,7 @@ export default function Landing() {
               What's Your Goal?
             </h2>
             <p className="text-zinc-400 max-w-xl mx-auto">
-              NutriSense adapts to your personal health objective and builds a custom plan around it.
+              Prana adapts to your personal health objective and builds a custom plan around it.
             </p>
           </div>
 
@@ -326,13 +326,13 @@ export default function Landing() {
             <TestimonialCard
               name="James K."
               location="London, UK"
-              quote="I've tried every calorie app. NutriSense is the only one where I didn't have to download anything. The meal planner gave me a full week in 10 seconds."
+              quote="I've tried every calorie app. Prana is the only one where I didn't have to download anything. The meal planner gave me a full week in 10 seconds."
               lost="12 kg"
             />
             <TestimonialCard
               name="Sofia R."
               location="São Paulo, Brazil"
-              quote="The macro split calculator alone is worth it. YAZIO doesn't have it. I finally understand exactly how much protein I need for my muscle-building goal."
+              quote="The macro split calculator alone is worth it. Other apps don't have it. I finally understand exactly how much protein I need for my muscle-building goal."
               lost="5 kg"
             />
           </div>
